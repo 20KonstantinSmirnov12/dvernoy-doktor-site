@@ -1,0 +1,67 @@
+<svg width="960" height="300" viewBox="0 0 960 300" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="960" height="300" fill="#ffffff"/>
+
+<!-- Иконка -->
+<g transform="translate(80,30)">
+
+<!-- Контур двери -->
+<rect x="0" y="0"
+width="190"
+height="240"
+rx="30"
+fill="none"
+stroke="#7c3f00"
+stroke-width="12"/>
+
+
+<!-- Внутренняя тень -->
+<rect x="8"
+y="8"
+width="174"
+height="224"
+rx="25"
+fill="none"
+stroke="#e7d2b6"
+stroke-width="5"
+opacity="0.6"/>
+
+<!-- Тень -->
+<text x="110"
+y="150"
+text-anchor="middle"
+font-family="Manrope, Arial, sans-serif"
+font-size="78"
+font-weight="800"
+fill="#c98b47"
+opacity="0.35">
+Д
+</text>
+
+<!-- Основная буква -->
+<text x="90"
+y="130"
+text-anchor="middle"
+font-family="Manrope, Arial, sans-serif"
+font-size="78"
+font-weight="800"
+fill="#7c3f00">
+Д
+</text>
+
+<!-- Ручка -->
+<circle cx="155" cy="120" r="5" fill="#c98b47"/>
+
+</g>
+
+<!-- Название -->
+<text x="300"
+y="160"
+font-family="Manrope, Arial, sans-serif"
+font-size="54"
+font-weight="700"
+fill="#1f2937">
+Дверной Доктор СПБ
+</text>
+
+</svg>

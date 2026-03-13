@@ -1,0 +1,52 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+
+<rect width="512" height="512" fill="#ffffff"/>
+
+<!-- Контур двери -->
+<rect x="110"
+y="70"
+width="290"
+height="370"
+rx="50"
+fill="none"
+stroke="#7c3f00"
+stroke-width="22"/>
+
+<!-- Внутренняя тень -->
+<rect x="125"
+y="85"
+width="260"
+height="340"
+rx="40"
+fill="none"
+stroke="#e7d2b6"
+stroke-width="6"
+opacity="0.6"/>
+
+<!-- Тень буквы -->
+<text x="275"
+y="305"
+text-anchor="middle"
+font-family="Manrope, Arial, sans-serif"
+font-size="160"
+font-weight="800"
+fill="#c98b47"
+opacity="0.35">
+Д
+</text>
+
+<!-- Основная буква -->
+<text x="245"
+y="270"
+text-anchor="middle"
+font-family="Manrope, Arial, sans-serif"
+font-size="160"
+font-weight="800"
+fill="#7c3f00">
+Д
+</text>
+
+<!-- Ручка -->
+<circle cx="345" cy="255" r="12" fill="#c98b47"/>
+
+</svg>
