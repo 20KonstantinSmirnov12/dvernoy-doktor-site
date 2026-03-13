@@ -4,29 +4,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Дверной Доктор — ремонт и регулировка межкомнатных дверей в Санкт-Петербурге</title>
   <meta name="description"
-    content="Регулировка и ремонт межкомнатных дверей в Санкт-Петербурге и Ленинградской области. Выезд в день обращения. Работаем с частниками, арендодателями и хоумстейджерами." />
+    content="Ремонт и регулировка межкомнатных дверей в Санкт-Петербурге и Ленинградской области. Устраняем перекосы, скрип, заменяем ручки и петли. Выезд в день обращения." />
+  <meta name="keywords"
+    content="ремонт межкомнатных дверей СПб, регулировка дверей Санкт-Петербург, дверь не закрывается, замена дверной ручки, устранение скрипа двери" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#7c3f00" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Дверной Доктор — ремонт и регулировка межкомнатных дверей в Санкт-Петербурге" />
+  <meta property="og:description"
+    content="Ремонт межкомнатных дверей, регулировка, замена ручек и петель. Выезд по Санкт-Петербургу и области." />
+  <meta property="og:url" content="https://dvernoy-doktor-site.vercel.app/" />
+  <meta property="og:image" content="https://dvernoy-doktor-site.vercel.app/og-cover.jpg" />
+  <meta property="og:locale" content="ru_RU" />
+  <meta property="og:site_name" content="Дверной Доктор" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Дверной Доктор — ремонт и регулировка межкомнатных дверей" />
+  <meta name="twitter:description"
+    content="Ремонт межкомнатных дверей в Санкт-Петербурге и Ленинградской области. Быстро, аккуратно и с понятным прайсом." />
+  <meta name="twitter:image" content="https://dvernoy-doktor-site.vercel.app/og-cover.jpg" />
+
+  <link rel="canonical" href="https://dvernoy-doktor-site.vercel.app/" />
+
+  <link rel="icon" href="/favicon.ico" sizes="any" />
+  <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" href="icon_dd_spb.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+    rel="stylesheet" />
+
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Дверной Доктор",
+    "description": "Ремонт и регулировка межкомнатных дверей в Санкт-Петербурге и Ленинградской области.",
+    "areaServed": [
+      "Санкт-Петербург",
+      "Ленинградская область"
+    ],
+    "telephone": "+7-999-000-00-00",
+    "url": "https://dvernoy-doktor-site.vercel.app/",
+    "image": "https://dvernoy-doktor-site.vercel.app/og-cover.jpg",
+    "priceRange": "₽₽",
+    "serviceType": [
+      "Регулировка межкомнатных дверей",
+      "Замена дверных ручек",
+      "Замена петель",
+      "Устранение скрипа",
+      "Ремонт дверной фурнитуры"
+    ]
+  }
+  </script>
 </head>
 
 <body>
-  <header class="topbar">
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-door-wrap">
+      <div class="loader-door-frame">
+        <div class="loader-door-panel"></div>
+      </div>
+      <div class="loader-caption">Дверной Доктор — открываем сайт без скрипа</div>
+    </div>
+  </div>
+  <div class="bg-orb bg-orb-1"></div>
+  <div class="bg-orb bg-orb-2"></div>
+  <header class="topbar glassy">
     <div class="container topbar-inner">
       <a href="#top" class="brand">
-        <div class="brand-mark">🩺</div>
         <div>
-          Дверной Доктор
-          <small>Ремонт и регулировка межкомнатных дверей</small>
+          <img src="logo_dd_spb_pro.svg" alt="Дверной Доктор СПБ" height="100">
         </div>
       </a>
 
       <nav class="nav">
         <a href="#problems">Проблемы</a>
-        <a href="#services">Услуги и цены</a>
+        <a href="#services" class="nav_price">Услуги и цены</a>
         <a href="#works">Работы</a>
         <a href="#partners">Партнёрам</a>
         <a href="#contacts">Контакты</a>
@@ -40,24 +103,25 @@
   </header>
 
   <main id="top">
-    <section class="hero">
+    <section class="hero reveal">
       <div class="container hero-grid">
-        <div class="hero-card hero-copy">
-          <div class="badge-row">
+        <div class="hero-card hero-copy premium-hero-panel">
+          <div class="badge-row reveal-delay-1">
             <div class="badge">Выезд в день обращения</div>
             <div class="badge">СПб и Ленобласть</div>
             <div class="badge">Частники и арендодатели</div>
           </div>
-          <h1>Дверь не закрывается?<br>Исправим за 30–60 минут.</h1>
-          <p class="lead">Профессиональная регулировка, ремонт и настройка межкомнатных дверей в Санкт-Петербурге и
-            области. Работаем аккуратно, быстро и без лишней суеты.</p>
+          <h1 class="headline-accent reveal-delay-2">Дверь не закрывается?<br>Исправим за 30–60 минут.</h1>
+          <p class="lead reveal-delay-3">Профессиональная регулировка, ремонт и настройка межкомнатных дверей в
+            Санкт-Петербурге и области. Работаем аккуратно, быстро и без лишней суеты.</p>
 
-          <div class="hero-actions">
+          <div class="hero-actions reveal-delay-4 premium-actions">
             <a class="btn btn-primary" href="#request">Вызвать мастера</a>
             <a class="btn btn-secondary" href="#request">Отправить фото двери</a>
+            <a class="btn btn-ghost" href="#contacts">Срочный выезд сегодня</a>
           </div>
 
-          <div class="hero-points">
+          <div class="hero-points reveal-delay-5">
             <div class="point"><strong>от 3 000 ₽</strong>честные цены и понятный прайс</div>
             <div class="point"><strong>30–60 минут</strong>на типовой ремонт и регулировку</div>
             <div class="point"><strong>Гарантия</strong>на выполненные работы</div>
@@ -65,13 +129,13 @@
         </div>
 
         <div class="hero-card hero-side">
-          <div class="doctor-illustration">
+          <div class="doctor-illustration floating-card hero-parallax" data-parallax="12">
             <div class="illustration-note">
               <h3 style="font-size:32px; margin-bottom:10px;">Лечим двери без паники</h3>
               <p style="margin:0;">Перекос, скрип, разбитая ручка, защёлка, которая живёт своей жизнью — всё это обычный
                 рабочий день Дверного Доктора.</p>
             </div>
-            <div class="door-graphic"></div>
+            <div class="door-graphic animated-door"></div>
           </div>
 
           <div class="mini-form" id="request">
@@ -83,15 +147,31 @@
               <textarea class="textarea"
                 placeholder="Например: дверь цепляет пол, ручка болтается, защёлка не закрывается"></textarea>
               <button class="btn btn-primary" type="submit">Отправить заявку</button>
-              <div class="hint">Здесь можно подключить форму Tilda, Telegram-бота, WhatsApp или CRM. Этот макет уже
-                готов под подключение.</div>
+              <div class="hint">Форма готова к подключению Telegram-бота, WhatsApp, почты или CRM.</div>
             </form>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="problems">
+    <section class="trust-strip reveal">
+      <div class="container trust-grid">
+        <div class="trust-item">
+          <strong>Аккуратный сервис</strong>
+          <span>Без пыли, суеты и разговоров на полчаса</span>
+        </div>
+        <div class="trust-item">
+          <strong>Быстрый выезд</strong>
+          <span>Санкт-Петербург и область без лишней волокиты</span>
+        </div>
+        <div class="trust-item">
+          <strong>Понятный прайс</strong>
+          <span>Клиент заранее понимает порядок цены</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="problems" class="reveal">
       <div class="container">
         <div class="section-head">
           <div>
@@ -136,7 +216,7 @@
       </div>
     </section>
 
-    <section id="services">
+    <section id="services" class="reveal">
       <div class="container">
         <div class="section-head">
           <div>
@@ -228,7 +308,7 @@
       </div>
     </section>
 
-    <section id="works">
+    <section id="works" class="reveal">
       <div class="container">
         <div class="section-head">
           <div>
@@ -334,7 +414,7 @@
       </div>
     </section>
 
-    <section id="partners">
+    <section id="partners" class="reveal">
       <div class="container partners">
         <div class="card partner-card">
           <h2>Для арендодателей и партнёров</h2>
@@ -364,7 +444,7 @@
 
     <section>
       <div class="container">
-        <div class="card cta">
+        <div class="card cta floating-card">
           <div>
             <h2 style="margin-bottom:8px;">Есть фото проблемы?</h2>
             <p>Отправьте фото двери в WhatsApp или Telegram — так быстрее понять проблему и назвать цену. Удобнее, чем
@@ -378,7 +458,7 @@
       </div>
     </section>
 
-    <section id="contacts">
+    <section id="contacts" class="reveal">
       <div class="container contact-grid">
         <div class="card partner-card">
           <h2>Контакты</h2>
@@ -410,13 +490,19 @@
     </section>
   </main>
 
+  <a class="floating-messenger" href="#contacts" aria-label="Связаться с мастером">
+    <span class="floating-messenger__icon">💬</span>
+    <span class="floating-messenger__text">Связаться с мастером</span>
+  </a>
+
+  <div class="toast-stack" id="toastStack" aria-live="polite" aria-atomic="true"></div>
+
   <footer class="footer">
     <div class="container">
-      © 2026 Дверной Доктор. Сервис по ремонту и регулировке межкомнатных дверей в Санкт-Петербурге и Ленобласти.
+      © 2026 Дверной Доктор. Сервис по ремонту и регулировке межкомнатных дверей в Санкт-Петербурге и области.
     </div>
   </footer>
   <script src="script.js"></script>
-
 </body>
 
 </html>
